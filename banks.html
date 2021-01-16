@@ -1,0 +1,539 @@
+<!Doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Stareview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="reviews.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel=stylesheet href=https://use.fontawesome.com/releases/v5.10.2/css/all.css>
+</head>
+
+<body>
+  <section id="navigation">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark header-nav">
+        <a class="navbar-brand stareview-logo" href="index.html">Stareview</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mr-5">
+              <div class="input-group mb-2 mr-sm-2 search-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text search-input px-0"><i class="fa fa-search"></i></div>
+                </div>
+                <input type="text" class="search-input form-control" id="search-input" placeholder="Search">
+              </div>
+            </li>
+            <li class="nav-item mr-5">
+              <a href="banks.html" class="nav-link">Write a review</a>
+            </li>
+            <li class="nav-item mr-4 dropdown">
+              <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img src="images/user.png" height="40px" width="40px" class="img-fluid"> Floyd Miles
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item login-option-2" href="review-stats.html"><i class="fas fa-user mr-2"></i>My profile</a>
+                <a class="dropdown-item login-option-2" href="mybanks.html"><i class="far fa-newspaper mr-2"></i></i>My reviews</a>
+                <a class="dropdown-item login-option-2" href="index.html"><i class="fas fa-sign-in-alt mr-2"></i>Sign out</a>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+  </section>
+
+  <section id="breadcrumbs">
+    <div class="container py-3">
+      <a href="index.html" class="py-3 banking"><i class="fas fa-chevron-left mr-2"></i>Banking</a>
+      <h2 class="best pt-1">Best in Bank</h2>
+      <p class="top-rated">Top-rated banks</p>
+    </div>
+  </section>
+
+
+  <section id="main-content">
+    <div class="container py-0 py-my-5">
+
+
+      <div class="row pb-5">
+        <div class="col-md-4 col-lg-3">
+          <div class="bg-white p-3 rounded">
+            <h5 class="mb-2 categories">Categories</h5>
+            <div class="">
+              <input type="checkbox" id="commercial-banks">
+              <label for="commercial-banks">Commercial banks</label>
+            </div>
+            <div class="">
+              <input type="checkbox" id="merchant-banks">
+              <label for="merchant-banks">Merchant banks</label>
+            </div>
+            <div class="">
+              <input type="checkbox" id="development-banks">
+              <label for="development-banks">Development banks</label>
+            </div>
+            <div class="">
+              <input type="checkbox" id="savings-bank">
+              <label for="savings-bank">Savings banks</label>
+            </div>
+            <a href="" class="show-more">Show more <i class="fas fa-caret-down pl-2"></i></a>
+
+            <hr />
+
+            <div class="d-flex justify-content-between">
+              <h5 class="mb-3 categories">Filters</h5>
+              <p class="reset">Reset Filters</p>
+            </div>
+
+            <input type="text" class="apply form-control" id="search-input" placeholder="City or Zip code">
+            <button class="btn apply-btn mt-2">Apply</button>
+
+            <hr />
+
+            <h5 class="mb-3 categories">No of reviews</h5>
+            <div class="">
+              <input type="checkbox" id="all-time">
+              <label for="all-time">All time</label>
+            </div>
+            <div class="">
+              <input type="checkbox" id="25plus">
+              <label for="25plus">25+</label>
+            </div>
+            <div class="">
+              <input type="checkbox" id="50plus">
+              <label for="50plus">50+</label>
+            </div>
+            <div class="">
+              <input type="checkbox" id="100plus">
+              <label for="100plus">100+</label>
+            </div>
+            <a href="" class="show-more">Show more <i class="fas fa-caret-down pl-2"></i></a>
+            
+          </div>
+        </div>
+        <div class="col-md-8 col-lg-9 mt-2 mt-md-0 banks">
+          <a href="one-bank.html">
+            <div class="bg-white p-3 p-lg-5 rounded">
+              <div class="row">
+                <div class="col-lg-2 col-3">
+                  <img src="images/titan-logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-10 col-9">
+                  <h5 class="blue-text">Titan Trust Bank Limited</h5>
+                  <div class="row py-3 ml-1">
+                    <span class="mr-3">
+                      <span class="rate-dot checked-dot"></span>
+                      <span class="rate-dot checked-dot"></span>
+                      <span class="rate-dot checked-dot"></span>
+                      <span class="rate-dot checked-dot"></span>
+                      <span class="rate-dot"></span>
+                    </span>
+                    <span class="rating-num mr-3">4.0 rating</span>
+                    <span class="review-num">43 reviews</span>
+                  </div>
+                  <p class="rating-num">Bank <i class="fas fa-circle px-1" style="font-size: 5px;"></i> <span>Financial Institution</span></p>
+                  <p class="rating-num">1680 Sanusi Fafunwa St, Victoria Island, Lagos</p>
+  
+                </div>
+              </div>
+  
+            </div>
+          </a>
+
+
+         <a href="one-bank.html">
+          <div class="bg-white p-3 p-lg-5 rounded mt-2 mt-md-5">
+            <div class="row">
+              <div class="col-lg-2 col-3">
+                <img src="images/citibank.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-lg-10 col-9">
+                <h5 class="blue-text">Citibank Nigeria Limited</h5>
+                <div class="row py-3 ml-1">
+                  <span class="mr-3">
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot"></span>
+                  </span>
+                  <span class="rating-num mr-3">4.8 rating</span>
+                  <span class="review-num">65 reviews</span>
+                </div>
+                <p class="rating-num">Bank <i class="fas fa-circle px-1" style="font-size: 5px;"></i> <span>Financial Institution</span></p>
+                <p class="rating-num">1 Idowu Taylor St, Victoria Island, Lagos</p>
+
+              </div>
+            </div>
+
+          </div>
+         </a>
+          
+          <a href="one-bank.html">
+            <div class="bg-white p-3 p-lg-5 rounded mt-2 mt-md-5">
+              <div class="row">
+                <div class="col-lg-2 col-3">
+                  <img src="images/zenith.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-10 col-9">
+                  <h5 class="blue-text">Zenith Bank</h5>
+                  <div class="row py-3 ml-1">
+                    <span class="mr-3">
+                      <span class="rate-dot checked-dot"></span>
+                      <span class="rate-dot checked-dot"></span>
+                      <span class="rate-dot checked-dot"></span>
+                      <span class="rate-dot checked-dot"></span>
+                      <span class="rate-dot"></span>
+                    </span>
+                    <span class="rating-num mr-3">4.5 rating</span>
+                    <span class="review-num">43 reviews</span>
+                  </div>
+                  <p class="rating-num">Bank <i class="fas fa-circle px-1" style="font-size: 5px;"></i> <span>Financial Institution</span></p>
+                  <p class="rating-num">Plot 6 Layi Yusuf Cresent Off Adiralty Road Lekki Penissula, Lagos</p>
+  
+                </div>
+              </div>
+  
+            </div>
+          </a>
+
+          <a href="one-bank.html">
+            <div class="bg-white p-3 p-lg-5 rounded mt-2 mt-md-5">
+              <div class="row">
+                <div class="col-lg-2 col-3">
+                  <img src="images/lendigo.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-10 col-9">
+                  <h5 class="blue-text">Lendigo</h5>
+                  <div class="row py-3 ml-1">
+                    <span class="mr-3">
+                      <span class="rate-dot checked-dot"></span>
+                      <span class="rate-dot checked-dot"></span>
+                      <span class="rate-dot checked-dot"></span>
+                      <span class="rate-dot checked-dot"></span>
+                      <span class="rate-dot"></span>
+                    </span>
+                    <span class="rating-num mr-3">4.0 rating</span>
+                    <span class="review-num">23 reviews</span>
+                  </div>
+                  <p class="rating-num">Merchant Bank <i class="fas fa-circle px-1" style="font-size: 5px;"></i> <span>Financial Institution</span></p>
+                  <p class="rating-num">Workbay 1st Floor, Lagos City Mall Onikan, Island 101231, Lagos</p>
+  
+                </div>
+              </div>
+  
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+      <div id="pagination my-3">
+        <div class="text-center">
+          <span class="page"><i class="fas fa-chevron-left"></i></span>
+          <span class="current-page">1</span>
+          <span class="page">2</span>
+          <span class="page">3</span>
+          <span class="page"><i class="fas fa-chevron-right"></i></span>
+        </div>
+      </div>
+
+
+      <div id="recent-reviews" class="my-5">
+        <h4 class="heading mb-4">Recent Search</h4>
+        <div class="searches">
+          <a href="one-bank.html">
+            <div class="card shadow-sm py-3">
+              <div class="card-body">
+                <div class="d-flex">
+                  <img src="images/titan.png" alt="Logo" class="img-fluid banks-logo">
+                  <h6 class="ml-2 heading">Titan Trust Bank Limited</h6>
+                </div>
+                <div class="row py-3 ml-1">
+                  <span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot"></span>
+                    <span class="rate-dot"></span>
+                  </span>
+  
+                  <span class="num-review ml-xl-3">43 reviews</span>
+                </div>
+                <p class="review-address">Victoria Island, Lagos</p>
+                <p class="review-address">Last reviewed : 12/12/2020</p>
+              </div>
+            </div>
+          </a>
+
+
+          <a href="one-bank.html">
+            <div class="card shadow-sm py-3">
+              <div class="card-body">
+                <div class="d-flex">
+                  <img src="images/globus.png" alt="Logo" class="img-fluid banks-logo">
+                  <h6 class="ml-2 heading">Globus Bank Limited</h6>
+                </div>
+                <div class="row py-3 ml-1">
+                  <span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot"></span>
+                    <span class="rate-dot"></span>
+                  </span>
+                
+                  <span class="num-review ml-xl-3">43 reviews</span>
+                </div>
+                <p class="review-address">Victoria Island, Lagos</p>
+                <p class="review-address">Last reviewed : 12/12/2020</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="one-bank.html">
+            <div class="card shadow-sm shadaow-sm py-3">
+              <div class="card-body">
+                <div class="d-flex">
+                  <img src="images/access.png" alt="Logo" class="img-fluid banks-logo">
+                  <h6 class="ml-2 heading">Access Bank <br/> Plc</h6>
+                </div>
+                <div class="row py-3 ml-1">
+                  <span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot"></span>
+                    <span class="rate-dot"></span>
+                  </span>
+                
+                  <span class="num-review ml-xl-3">100 reviews</span>
+                </div>
+                <p class="review-address">Victoria Island, Lagos</p>
+                <p class="review-address">Last reviewed : 12/12/2020</p>
+              </div>
+            </div>
+          </a>
+
+         <a href="one-bank.html">
+          <div class="card reviews-card shadow-sm py-3">
+            <div class="card-body">
+              <div class="d-flex">
+                <img src="images/sterling.png" alt="Logo" class="img-fluid banks-logo">
+                <h6 class="ml-2 heading">Sterling Bank <br /> Plc</h6>
+              </div>
+            <div class="row py-3 ml-1">
+              <span>
+                <span class="rate-dot checked-dot"></span>
+                <span class="rate-dot checked-dot"></span>
+                <span class="rate-dot checked-dot"></span>
+                <span class="rate-dot"></span>
+                <span class="rate-dot"></span>
+              </span>
+            
+              <span class="num-review ml-xl-3">60 reviews</span>
+            </div>
+              <p class="review-address">Victoria Island, Lagos</p>
+              <p class="review-address">Last reviewed : 12/12/2020</p>
+            </div>
+          </div>
+         </a>
+
+        </div>
+      </div>
+
+      <div id="newest-companies" class="mb-5">
+        <h4 class="heading mb-4">Newest Companies</h4>
+        <div class="searches">
+          <a href="one-bank.html">
+            <div class="card shadow-sm py-3">
+              <div class="card-body">
+                <div class="d-flex">
+                  <img src="images/titan.png" alt="Logo" class="img-fluid banks-logo">
+                  <h6 class="ml-2 heading">Titan Trust Bank Limited</h6>
+                </div>
+                <div class="row py-3 ml-1">
+                  <span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot"></span>
+                    <span class="rate-dot"></span>
+                  </span>
+  
+                  <span class="num-review ml-xl-3">43 reviews</span>
+                </div>
+                <p class="review-address">Victoria Island, Lagos</p>
+                <p class="review-address">Last reviewed : 12/12/2020</p>
+              </div>
+            </div>
+          </a>
+
+
+          <a href="one-bank.html">
+            <div class="card shadow-sm py-3">
+              <div class="card-body">
+                <div class="d-flex">
+                  <img src="images/globus.png" alt="Logo" class="img-fluid banks-logo">
+                  <h6 class="ml-2 heading">Globus Bank Limited</h6>
+                </div>
+                <div class="row py-3 ml-1">
+                  <span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot"></span>
+                    <span class="rate-dot"></span>
+                  </span>
+                
+                  <span class="num-review ml-xl-3">43 reviews</span>
+                </div>
+                <p class="review-address">Victoria Island, Lagos</p>
+                <p class="review-address">Last reviewed : 12/12/2020</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="one-bank.html">
+            <div class="card shadow-sm shadaow-sm py-3">
+              <div class="card-body">
+                <div class="d-flex">
+                  <img src="images/access.png" alt="Logo" class="img-fluid banks-logo">
+                  <h6 class="ml-2 heading">Access Bank <br/> Plc</h6>
+                </div>
+                <div class="row py-3 ml-1">
+                  <span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot checked-dot"></span>
+                    <span class="rate-dot"></span>
+                    <span class="rate-dot"></span>
+                  </span>
+                
+                  <span class="num-review ml-xl-3">100 reviews</span>
+                </div>
+                <p class="review-address">Victoria Island, Lagos</p>
+                <p class="review-address">Last reviewed : 12/12/2020</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="one-bank.html">
+            <div class="card reviews-card shadow-sm py-3">
+              <div class="card-body">
+                <div class="d-flex">
+                  <img src="images/sterling.png" alt="Logo" class="img-fluid banks-logo">
+                  <h6 class="ml-2 heading">Sterling Bank <br /> Plc</h6>
+                </div>
+              <div class="row py-3 ml-1">
+                <span>
+                  <span class="rate-dot checked-dot"></span>
+                  <span class="rate-dot checked-dot"></span>
+                  <span class="rate-dot checked-dot"></span>
+                  <span class="rate-dot"></span>
+                  <span class="rate-dot"></span>
+                </span>
+              
+                <span class="num-review ml-xl-3">60 reviews</span>
+              </div>
+                <p class="review-address">Victoria Island, Lagos</p>
+                <p class="review-address">Last reviewed : 12/12/2020</p>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+  <section id="footer" class="pt-3">
+    <div class="container text-dark">
+      <div class="mb-3">
+        <a class="footer-logo" href="index.html">Stareview</a>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-12 mb-4">
+          <p class="pr-md-5 footer-desc">
+            We connect customers to companies. We care about all consumers powerful voices and which will help companies respond and
+            improve continually.
+          </p>
+        </div>
+        <div class="col-md-5 col-xs-12 pb-4">
+          <div class="row">
+            <div class="col-xs-6 col-6">
+              <h6 class="footer-heading mb-3">
+                About
+              </h6>
+              <p class="mb-2 footer-text">
+                About us
+              </p>
+              <p class="mb-2 footer-text">
+                Contact us
+              </p>
+            </div>
+            <div class="col-xs-6 col-6">
+              <h6 class="footer-heading mb-3">
+                Quick Link
+              </h6>
+              <p class="mb-2 footer-text">Sign up</p>
+              <p class="mb-2 footer-text">Login</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12 mb-4">
+          <div class="row">
+            <div class="col-xs-6 col-12">
+              <h6 class="footer-heading mb-3">
+                Connect with us
+              </h6>
+              <i class="fab fa-facebook-f mr-2 footer-icons"></i>
+              <i class="fab fa-instagram mr-2 footer-icons"></i>
+              <i class="fab fa-twitter  mr-2 footer-icons"></i>
+              <i class="fab fa-linkedin footer-icons"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <footer class="container footer text-center">
+        <hr class="mt-3 footer-hr" />
+        <div class="d-flex justify-content-between">
+          <p class="footer-text">
+            Designed with ❤️ & Vibes
+          </p>
+          <p class="footer-text">
+            &copy; 2020 ReviewStar. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  </body>
+  
+</html>
