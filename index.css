@@ -36,6 +36,70 @@ button:focus {
   font-size: 2.3rem !important;
   font-size: bolder !important;
 }
+.login-with {
+  color: var(--blue-background);
+}
+/* .fa-linkedin-in, .fa-facebook-f {
+  font-size: 12px;
+} */
+.linkedin2 {
+  border-radius: 50%;
+  padding: 12px 14px;
+  color: #fff;
+  background: #117BB8;
+  margin: 5px;
+}
+.google2 {
+  border-radius: 50%;
+  padding: 12px;
+  color: #fff;
+  background: #E05449;
+  margin: 5px;
+}
+.facebook2 {
+  border-radius: 50%;
+  padding: 12px 15px;
+  color: #fff;
+  background: #3B5A9A;
+  margin: 5px;
+}
+.google2:hover, .facebook2:hover, .linkedin2:hover {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer !important;
+}
+/* .linkedin {
+  background-color: #fff;
+  border: 1px solid var(--blue-background) !important;
+  border-radius: 5px;
+  padding: 8px 20px;
+  color: var(--blue-background) !important;
+  margin-right: 8px;
+  font-size: 14px;
+}
+.google:hover, .facebook:hover, .linkedin:hover {
+  text-decoration: none;
+  color: var(--blue-color);
+  border: 1px solid var(--blue-color);
+  cursor: pointer !important;
+}
+.google {
+  background-color: #fff;
+  border: 1px solid var(--blue-background) !important;
+  border-radius: 5px;
+  padding: 8px 20px;
+  color: var(--blue-background) !important;
+  margin-right: 8px;
+  font-size: 14px;
+}
+.facebook{
+  background-color: #fff;
+  border: 1px solid var(--blue-background) !important;
+  border-radius: 5px;
+  padding: 8px;
+  color: var(--blue-background) !important;
+  font-size: 14px;
+} */
 .login-option-2 {
   color: var(--faint-text-color) !important;
   font-size: 14px;
