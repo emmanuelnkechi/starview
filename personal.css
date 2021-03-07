@@ -1,0 +1,243 @@
+:root {
+  --blue-background: #00296b;
+  --yellow-background: #f7af4d;
+  --blue-color: #003f88;
+  --faint-text-color: #a0a3bd;
+  --gray-text: #10243d;
+}
+.body {
+  overflow-x: hidden;
+}
+button:focus {
+  outline: 0 !important;
+}
+
+#navigation {
+  background-color: var(--blue-background) !important;
+}
+.header-nav {
+  padding: 0.5rem 0 !important;
+  background-color: var(--blue-background);
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("images/th-solid.svg") !important;
+  color: #fff !important;
+}
+.navbar-toggler {
+  border: none !important;
+}
+.navbar-toggler:focus {
+  outline: 0 !important;
+}
+.create-btn {
+  text-decoration: none;
+  background-color: #fff !important;
+  color: var(--blue-color) !important;
+}
+.nav-item {
+  list-style: none !important;
+}
+.nav-link {
+  color: #fff !important;
+}
+.stareview-logo {
+  font-size: 2.3rem !important;
+  font-size: bolder !important;
+}
+.login-with {
+  color: var(--blue-background);
+}
+/* .fa-linkedin-in, .fa-facebook-f {
+    font-size: 12px;
+  } */
+.linkedin2 {
+  border-radius: 50%;
+  padding: 12px 14px;
+  color: #fff;
+  background: #117bb8;
+  margin: 5px;
+}
+.google2 {
+  border-radius: 50%;
+  padding: 12px;
+  color: #fff;
+  background: #e05449;
+  margin: 5px;
+}
+.facebook2 {
+  border-radius: 50%;
+  padding: 12px 15px;
+  color: #fff;
+  background: #3b5a9a;
+  margin: 5px;
+}
+.google2:hover,
+.facebook2:hover,
+.linkedin2:hover {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer !important;
+}
+/* .linkedin {
+    background-color: #fff;
+    border: 1px solid var(--blue-background) !important;
+    border-radius: 5px;
+    padding: 8px 20px;
+    color: var(--blue-background) !important;
+    margin-right: 8px;
+    font-size: 14px;
+  }
+  .google:hover, .facebook:hover, .linkedin:hover {
+    text-decoration: none;
+    color: var(--blue-color);
+    border: 1px solid var(--blue-color);
+    cursor: pointer !important;
+  }
+  .google {
+    background-color: #fff;
+    border: 1px solid var(--blue-background) !important;
+    border-radius: 5px;
+    padding: 8px 20px;
+    color: var(--blue-background) !important;
+    margin-right: 8px;
+    font-size: 14px;
+  }
+  .facebook{
+    background-color: #fff;
+    border: 1px solid var(--blue-background) !important;
+    border-radius: 5px;
+    padding: 8px;
+    color: var(--blue-background) !important;
+    font-size: 14px;
+  } */
+.login-option-2 {
+  color: var(--faint-text-color) !important;
+  font-size: 14px;
+  padding: 10px 15px !important;
+}
+.sign-up {
+  background-color: var(--yellow-background) !important;
+  color: var(--blue-background) !important;
+  border-radius: 2px !important;
+}
+.modal-content {
+  border-radius: 20px !important;
+  padding-bottom: 20px !important;
+}
+.modal-header {
+  border-bottom: none !important;
+}
+.dropdown-menu {
+  width: fit-content !important;
+  border: none !important;
+}
+.dropdown-item:active {
+  background-color: transparent !important;
+}
+.close {
+  color: var(--blue-background) !important;
+}
+.blue-text {
+  color: var(--blue-color);
+  font-weight: 500;
+}
+.all-recent {
+  color: var(--blue-color);
+}
+.all-recent:hover {
+  text-decoration: none;
+}
+.banks:hover {
+  text-decoration: none !important;
+}
+.login-input {
+  background-color: #eff0f7 !important;
+  border: none !important;
+  padding: 25px 20px !important;
+}
+.login-input::placeholder {
+  color: var(--faint-text-color) !important;
+}
+.logged-in,
+.logged-in a,
+.logged-in a:hover {
+  font-size: 13px !important;
+  color: var(--faint-text-color) !important;
+  text-decoration: none !important;
+}
+.login-btn {
+  background-color: var(--blue-background) !important;
+  width: 100% !important;
+  color: #fff !important;
+  padding: 12px !important;
+}
+.login-btn a,
+.login-btn a:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.no-account,
+.no-account a:hover {
+  font-size: 13px !important;
+  color: var(--faint-text-color) !important;
+  text-decoration: none !important;
+}
+
+/* breadcrumb */
+.create-post-heading {
+  color: var(--blue-color) !important;
+}
+
+/* main content */
+#main-content {
+  background-color: whitesmoke;
+  padding-top: 2vh !important;
+}
+
+.image-div, .personal-div, .password-div, .wallet-div{
+    background-color: #fff;
+}
+.user-name{
+    color: #03296B;
+}
+.user-info{
+    color: #03296B;
+}
+.user-text{
+    color: #A0A3BD;
+}
+.wrapper-post {
+  background-color: #fff;
+  /* width: 80%; */
+}
+.personal-info{
+    color: #03296B;
+}
+.personal-text{
+    color: rgba(3, 41, 107, 0.65);
+}
+.form-group label {
+    color: #A0A3BD;
+}
+
+.save-btn {
+  width: 100%;
+  background-color: var(--blue-background);
+  color: #fff;
+}
+
+@media only screen
+and (max-device-width : 600px) {
+    .wrapper-post{
+        margin-top: 3rem !important;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .profile-side{
+        margin-right: 0 !important;
+    }
+    
+}
+

@@ -1,0 +1,283 @@
+:root {
+    --blue-background: #00296B;
+    --yellow-background: #F7AF4D;
+    --blue-color: #003F88;
+    --faint-text-color: #A0A3BD;
+    --gray-text: #10243D;
+  }
+  .body {
+    overflow-x: hidden;
+  }
+  button:focus {
+    outline: 0 !important;
+  }
+  
+  #navigation {
+    background-color: var(--blue-background) !important;
+  }
+  .header-nav {
+    padding: 0.5rem 0 !important;
+    background-color: var(--blue-background);
+  }
+  .navbar-dark .navbar-toggler-icon {
+      background-image: url("images/th-solid.svg") !important;
+      color: #fff !important;
+    }
+  .navbar-toggler {
+    border: none !important;
+  }
+  .navbar-toggler:focus {
+    outline: 0 !important;
+  }
+  .create-btn{
+    text-decoration: none;
+    background-color: #fff !important;
+    color: var(--blue-color) !important;
+  }
+  .nav-item{
+      list-style: none !important;
+  }
+  .nav-link {
+    color: #fff !important;
+  }
+  .stareview-logo {
+    font-size: 2.3rem !important;
+    font-size: bolder !important;
+  }
+  .login-with {
+    color: var(--blue-background);
+  }
+  /* .fa-linkedin-in, .fa-facebook-f {
+    font-size: 12px;
+  } */
+  .linkedin2 {
+    border-radius: 50%;
+    padding: 12px 14px;
+    color: #fff;
+    background: #117BB8;
+    margin: 5px;
+  }
+  .google2 {
+    border-radius: 50%;
+    padding: 12px;
+    color: #fff;
+    background: #E05449;
+    margin: 5px;
+  }
+  .facebook2 {
+    border-radius: 50%;
+    padding: 12px 15px;
+    color: #fff;
+    background: #3B5A9A;
+    margin: 5px;
+  }
+  .google2:hover, .facebook2:hover, .linkedin2:hover {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer !important;
+  }
+  /* .linkedin {
+    background-color: #fff;
+    border: 1px solid var(--blue-background) !important;
+    border-radius: 5px;
+    padding: 8px 20px;
+    color: var(--blue-background) !important;
+    margin-right: 8px;
+    font-size: 14px;
+  }
+  .google:hover, .facebook:hover, .linkedin:hover {
+    text-decoration: none;
+    color: var(--blue-color);
+    border: 1px solid var(--blue-color);
+    cursor: pointer !important;
+  }
+  .google {
+    background-color: #fff;
+    border: 1px solid var(--blue-background) !important;
+    border-radius: 5px;
+    padding: 8px 20px;
+    color: var(--blue-background) !important;
+    margin-right: 8px;
+    font-size: 14px;
+  }
+  .facebook{
+    background-color: #fff;
+    border: 1px solid var(--blue-background) !important;
+    border-radius: 5px;
+    padding: 8px;
+    color: var(--blue-background) !important;
+    font-size: 14px;
+  } */
+  .login-option-2 {
+    color: var(--faint-text-color) !important;
+    font-size: 14px;
+    padding: 10px 15px !important;
+  }
+  .sign-up {
+    background-color: var(--yellow-background) !important;
+    color: var(--blue-background) !important;
+    border-radius: 2px !important;
+  }
+  .modal-content {
+    border-radius: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .modal-header {
+    border-bottom: none !important;
+  }
+  .dropdown-menu {
+    width: fit-content !important;
+    border: none !important;
+  }
+  .dropdown-item:active {
+    background-color: transparent !important;
+  }
+  .close {
+    color: var(--blue-background) !important;
+  }
+  .blue-text {
+    color: var(--blue-color);
+    font-weight: 500;
+  }
+  .all-recent {
+    color: var(--blue-color);
+  }
+  .all-recent:hover {
+    text-decoration: none;
+  }
+  .banks:hover {
+    text-decoration: none !important;
+  }
+  .login-input {
+    background-color: #EFF0F7 !important;
+    border: none !important;
+    padding: 25px 20px !important;
+  }
+  .login-input::placeholder {
+    color: var(--faint-text-color) !important;
+  }
+  .logged-in, .logged-in a, .logged-in a:hover{
+    font-size: 13px !important;
+    color: var(--faint-text-color) !important;
+    text-decoration: none !important;
+  }
+  .login-btn {
+    background-color: var(--blue-background) !important;
+    width: 100% !important;
+    color: #fff !important;
+    padding: 12px !important;
+  }
+  .login-btn a, .login-btn a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+  .no-account, .no-account a:hover {
+    font-size: 13px !important;
+    color: var(--faint-text-color) !important;
+    text-decoration: none !important;
+  }
+
+
+  /* breadcrumb */
+  .create-post-heading{
+      color: var(--blue-color) !important;
+  }
+
+  /* main content */
+  #main-content {
+    background-color: whitesmoke;
+    padding-top: 2vh !important;
+  }
+  .wrapper-post{
+width: 100%;
+  }
+  .div-items a{
+    color: rgba(3, 41, 107, 0.32);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .div-items.active a{
+    color: #03296B !important;
+    text-decoration: none;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px #03296B solid;
+  }
+  div.card{
+      width: 100% !important;
+  }
+  span.badge{
+    background: #F7AF4D;
+    border-radius: 12px;
+    color: #fff;
+  }
+  .delivery{
+      color: var(--blue-color) !important;
+  }
+  .date{
+    color: rgba(3, 41, 107, 0.41);
+  }
+  .lorem{
+    color: rgba(3, 41, 107, 0.9);
+  }
+  .icons-card{
+    color: rgba(3, 41, 107, 0.65);
+  }
+  .del-icon{
+    color: rgba(255, 3, 3, 0.65);
+  }
+  .boost{
+    color: rgba(3, 41, 107, 0.65);
+  }
+
+  
+
+
+
+  /* footer */
+
+  .footer-logo {
+    color: var(--blue-background) !important;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  .footer-logo:hover {
+    text-decoration: none !important;
+  }
+  .footer-desc {
+    font-size: 12px;
+    color: var(--blue-background);
+    font-weight: 600;
+  }
+  .footer-heading {
+    color: var(--blue-background);
+    font-weight: bold;
+  }
+  .footer-text {
+    font-size: 14px;
+    color: #00296B;
+    font-weight: 500;
+  }
+  .footer-icons {
+    font-size: 18px;
+    color: #00296B;
+  }
+  .rate-dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background: transparent;
+    border: 3px solid var(--yellow-background);
+  }
+  .checked-dot {
+    background: var(--yellow-background) !important;
+  }
+
+  @media only screen
+  and (max-device-width : 600px) {
+div.col-md-4.sub{
+    margin-top: 2rem !important;
+}
+  }

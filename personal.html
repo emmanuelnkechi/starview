@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stareviews</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel=stylesheet
+    href=https://use.fontawesome.com/releases/v5.10.2/css/all.css>
+    <link rel="stylesheet" href="personal.css">
+
+
+    <section id="navigation">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark header-nav">
+            <a class="navbar-brand stareview-logo" href="index.html">Stareview</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item mr-5">
+                  <div class="input-group mb-2 mr-sm-2 search-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text search-input px-0"><i class="fa fa-search"></i></div>
+                    </div>
+                    <input type="text" class="search-input form-control" id="search-input" placeholder="Search">
+                  </div>
+                </li> -->
+                <li class="nav-item mr-5">
+                  <a href="" class="create-btn py-2 px-3 mt-2" type="button"> + Create New Post</a>
+                </li>
+                <li class="nav-item mr-4 dropdown">
+                  <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <img src="images/user.png" height="40px" width="40px" class="img-fluid"> Floyd Miles
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item login-option-2" href="review-stats.html"><i class="fas fa-user mr-2"></i>My profile</a>
+                    <a class="dropdown-item login-option-2" href="mybanks.html"><i class="far fa-newspaper mr-2"></i></i>My reviews</a>
+                    <a class="dropdown-item login-option-2" href="index.html"><i class="fas fa-sign-in-alt mr-2"></i>Sign out</a>
+                  </div>
+                </li>
+    
+              </ul>
+            </div>
+          </nav>
+    
+        </div>
+      </section>
+<!-- Individual Sign Up Ends here -->
+
+
+
+
+<!-- Login and SignUp Modals -->
+
+<section id="breadcrumbs">
+    <div class="container py-4 px-4">
+
+      <div class="row justify-content-md-between create-new">
+       <h3 class="create-post-heading">
+           Posts
+       </h3>
+      </div>
+      
+    </div>
+  </section>
+
+
+  <section id="main-content">
+    <div class="container body-div py-5">
+      <div class="row">
+        <div class="mr-4 col-md-3 profile-side" >
+          <div class="image-div text-center p-3">
+             <img src="./images/miles.png" alt="">
+             <p class="mb-0 mt-3 user-name"><b>Floyd Miles</b></p>
+          </div>
+
+          <div class="personal-div mt-3 p-3">
+           <span><img src="./images/warn.png" alt=""></span>
+           <span class="ml-2 user-info">Personal Information</span>
+          </div>
+
+          <div class="password-div mt-3 p-3">
+            <span><img src="./images/lock.png" alt=""></span>
+            <span class="ml-2 user-text">Password</span>
+          </div>
+
+          <div class="wallet-div mt-3 p-3">
+            <span><img src="./images/wallet.png" alt=""></span>
+            <span class="ml-2 user-text">Wallet</span>
+          </div>
+        </div>
+          <div class="wrapper-post px-5 py-4 col-md-8">
+              <h3 class="personal-info">Personal Information</h3>
+              <p class="personal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper purus ipsum pharetra nunc.</p>
+
+              <form class="mt-5">
+                <div class="form-group">
+                  <label for="name" >Full Name</label>
+                  <input type="text" class="form-control" name="Full Name" id="name" aria-describedby="titleHelp">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" name="email-address" id="email" aria-describedby="titleHelp">
+                </div>
+                <div class="form-group">
+                  <label for="number">Phone Number</label>
+                  <input type="phone-number" class="form-control" name="phone-number" id="number" aria-describedby="titleHelp">
+                </div>
+                
+                  
+                <button type="submit" class="btn save-btn mt-4">Save</button>
+              </form>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
