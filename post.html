@@ -178,15 +178,27 @@
                       <div class="d-flex">
                         <span class="badge px-4 py-2">Technology</span>
                         <span  class=" ml-auto">
-                            <a href=""  style="text-decoration: none; color: #03296B;">
+                          <a href="javascript:void(0);"  style="text-decoration: none; color: #03296B;"  class="icon" onclick="myFunction()">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
                               <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
                             </svg>
                         </a>
                         
-                
 
                     </span>
+                      </div>
+
+                      <div id="myLinks" >
+                        <span class="d-flex flex-column mt-3 ">
+                        <span class="div-a ml-auto mr-3">
+                          <img src="./images/edit-icon.png" alt="">
+                          <a type="button" class="ham" href="#">Edit</a>
+                        </span>
+                        <span class="div-a ml-auto mt-2">
+                          <img src="./images/delete-icon.png" alt="">
+                          <a type="button" class="ham" href="#">Delete</a>
+                        </span>
+                        <span>
                       </div>
 
                      
@@ -195,18 +207,63 @@
                       <small class="date">20 February, 2021</small>
                       <p class="lorem mt-3">Lorem ipsum dolor sitamet, conseadipiscing elit.</p>
                       <div class="d-flex justify-content-end"> 
+                        <a href="javascript:void(0);" style="text-decoration: none;" class="ml-auto boost" onclick="boostFunction()">
                           <span>
-                              <img src="./images/boost-icon.png" alt=""> 
-                          </span>
+                            <img src="./images/boost-icon.png" alt=""> 
+                        </span>
+                        </a>  
                       </div>
 
                       <div class="d-flex ">
                           <span><img src="./images/edit-icon.png" alt=""> <small class="icons-card">Edit</small></span>
                           <span class="ml-4"><img src="./images/delete-icon.png" alt=""> <small class="del-icon">Delete</small></span>
-                          <span class="ml-auto boost">
-                          <small>Boost</small>
-                          </span>
+                          <a href="javascript:void(0);" style="text-decoration: none;" class="ml-auto boost" onclick="boostFunction()">
+                            <span>
+                              <small>Boost</small>
+                            </span>
+                          </a>
                       </div>
+                     
+
+                      <!-- boost modal -->
+                      <div class="pop-modal mx-auto mt-4" style="display: none;">
+                        <a href="javascript:void(0);" style="text-decoration: none;" onclick="closeFunction()">
+                        <i class="fas fa-times mr-2 mt-2 mb-3 " style="font-size: 2rem;"></i>
+                      </a>
+                        <div class="money-div py-2">
+                            <h3>N4,999<span class="small-txt"> / mo</span></h3>
+                            <p>Boost Post</p>
+                        </div>
+                        <div>
+                            <div class="mt-2">
+                                <span><img src="./images/check-mark.png" alt="" /></span>
+                                <span class="text-modal">Twice more views than the normal post</span>
+                            </div>
+                            <div class="mt-2">
+                                <span><img src="./images/check-mark.png" alt="" /></span>
+                                <span class="text-modal">Instant clicks on viewed post</span>
+                            </div>
+                            <div class="mt-2">
+                                <span><img src="./images/check-mark.png" alt="" /></span>
+                                <span class="text-modal">Twice more views than the normal post</span>
+                            </div>
+                            <div class="mt-2">
+                                <span><img src="./images/check-mark.png" alt="" /></span>
+                                <span class="text-modal">Twice more views than the normal post</span>
+                            </div>
+                            <div class="mt-2">
+                                <span><img src="./images/check-mark.png" alt="" /></span>
+                                <span class="text-modal">Instant clicks on viewed post</span>
+                            </div>
+                
+                            <div class="mt-4">
+                                <p class="text-modal">Make payment via Bank Transfer</p>
+                                <span class="badge number px-4 py-3">0012345678</span>
+                                <p class="validate mt-2"><a href="">click here to validate payment</a></p>
+                            </div>
+                        </div>
+                    </div>
+                
                       </div>
                     </div>
                 </div>
@@ -311,7 +368,7 @@
 
 
 
- 
+ <script src="index.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
