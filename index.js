@@ -50,7 +50,7 @@ function myFunction() {
 
 // modal for boost
 function boostFunction() {
-  var x = document.querySelector(".pop-modal");
+  var x = document.querySelector(".modal");
   
   if (x.style.display === "block") {
     x.style.display = "none";
@@ -59,6 +59,6 @@ function boostFunction() {
   }
 }
 function closeFunction(){
-  var x = document.querySelector(".pop-modal");
+  var x = document.querySelector(".modal");
     x.style.display = "none";
 }
